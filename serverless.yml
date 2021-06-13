@@ -23,10 +23,11 @@ frameworkVersion: '2'
 provider:
   name: aws
   runtime: nodejs12.x
-
+custom:
   client:
     bucketName: yuliya-aws-second-task
-  
+    distributionFolder: build
+ 
 plugins:
   - serverless-finch
 # you can overwrite defaults here
