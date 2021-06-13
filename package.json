@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy:s3":"serverless client deploy --no-config-change --no-policy-change --no-cors-change"
+    "deploy:s3":"serverless client deploy --region us-west-1 --no-config-change --no-policy-change --no-cors-change"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
